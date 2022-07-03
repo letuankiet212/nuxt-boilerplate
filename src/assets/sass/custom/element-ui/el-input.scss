@@ -1,0 +1,12 @@
+.el-input {
+  .el-input__inner {
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    color: $typography-primary;
+
+    &:focus {
+      border-color: $primary-color;
+      outline: 0;
+    }
+  }
+}

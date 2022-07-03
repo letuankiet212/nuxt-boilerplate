@@ -1,0 +1,32 @@
+/** Figma design colors (defined by designers) **/
+$orange-primary: #ed7a57;
+$orange-80: #ee8868;
+$orange-50: #f1a992;
+$orange-20: #f7d4c9;
+
+$yellow-primary: #f5c54f;
+$yellow-80: #f8d267;
+$yellow-50: #fae096;
+$yellow-20: #fcefc8;
+
+$typography-primary: #1b1d25;
+$typography-80: #2b2f3c;
+$typography-50: #4e5363;
+$typography-20: #6f7487;
+
+$gray-primary: #9b9fad;
+$gray-80: #a9acb8;
+$gray-50: #c4c7cf;
+$gray-20: #ebebeb;
+
+/**  Color default **/
+$white-base: #ffff;
+$black-base: black;
+
+/**  Color in layout**/
+$bg-color: $white-base;
+$text-base: $typography-primary;
+$secondary-color: #3a72d6;
+$primary-color: $orange-primary;
+$border-color: $gray-50;
+$border-radius: 10px;
