@@ -46,10 +46,23 @@ const nuxtConfig: Configuration = {
    */
   loading: { color: '#fff' },
 
+  layoutTransition: {
+    name: 'layout',
+    mode: 'out-in'
+  },
+
   /*
    ** Global CSS
    */
   css: ['~/assets/sass/main.scss', '~/assets/sass/theme/index.css'],
+
+  styleResources: {
+    scss: [
+      '~/assets/sass/abstracts/variables.scss',
+      '~/assets/sass/abstracts/colors.scss',
+      '~/assets/sass/abstracts/mixins.scss'
+    ]
+  },
 
   /*
    ** Plugins to load before mounting the App
@@ -59,12 +72,7 @@ const nuxtConfig: Configuration = {
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios',
-    // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma'
-  ],
+  modules: ['@nuxt/postcss8', '@nuxtjs/axios'],
   /*
    ** Axios module configuration
    */
