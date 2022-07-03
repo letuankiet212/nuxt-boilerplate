@@ -63,11 +63,14 @@
     "eslint-plugin-prettier": "3.1.2",
     "jest": "^25.1.0",
     "nodemon": "^1.19.4",
+    "element-ui": "^2.15.6",
     "prettier": "1.19.1",
     "testcafe": "^1.8.2",
     "ts-jest": "^25.2.1",
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.5",
-    "vue-jest": "^3.0.5"
+    "vue-jest": "^3.0.5",
+    "sass": "^1.50.0",
+    "sass-loader": "10.1.1"
   }
 }

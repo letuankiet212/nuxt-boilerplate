@@ -1,0 +1,26 @@
+.el-button {
+  transition: 100ms;
+
+  &:hover,
+  &:focus,
+  &:active {
+    opacity: 0.85;
+  }
+
+  &--primary,
+  &--primary.is-disabled {
+    // background-color: $blue-primary;
+  }
+
+  &--primary,
+  &--primary:hover,
+  &--primary:focus,
+  &--primary.is-plain,
+  &--primary.is-plain:hover,
+  &--primary.is-plain:focus {
+    background: $primary-color;
+    border-color: $primary-color;
+    color: $white-base;
+    font-weight: 600;
+  }
+}

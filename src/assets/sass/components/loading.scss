@@ -1,0 +1,17 @@
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  transition: all 0.3s ease;
+  background-color: rgba($color: white, $alpha: 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  i {
+    color: black;
+  }
+}

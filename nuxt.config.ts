@@ -49,12 +49,12 @@ const nuxtConfig: Configuration = {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['~/assets/sass/main.scss', '~/assets/sass/theme/index.css'],
 
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [{ src: '~/plugins/elemen-ui' }],
 
   /*
    ** Nuxt.js modules

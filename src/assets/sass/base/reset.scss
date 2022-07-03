@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+
+  &::after,
+  &::before {
+    box-sizing: border-box;
+  }
+}
+
+input,
+button {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+input[type='submit'],
+input[type='reset'],
+input[type='button'],
+button {
+  user-select: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a,
+abbr {
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+li {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+img {
+  user-select: none;
+  background-color: transparent;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+select,
+textarea {
+  appearance: none;
+  background-clip: border-box;
+  margin: 0;
+  outline: 0;
+  text-align: left;
+  vertical-align: top;
+  width: 100%;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  width: auto;
+  height: auto;
+}
+
+input[type='checkbox'] {
+  appearance: checkbox;
+}
+
+input[type='radio'] {
+  appearance: radio;
+}
+
+textarea,
+select[size],
+select[multiple] {
+  height: auto;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select:focus::-ms-value {
+  background-color: transparent;
+  color: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type='search']::-webkit-search-decoration {
+  display: none;
+}
+
+button {
+  appearance: none;
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+
+[disabled],
+[disabled] * {
+  box-shadow: none;
+  cursor: not-allowed;
+  user-select: none;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  &,
+  &:hover,
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 1000px #fff inset !important;
+  }
+}
